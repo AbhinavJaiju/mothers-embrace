@@ -1,5 +1,5 @@
 
-const customerReview = [
+const reviewData = [
     {
         id: 1,
         name: "Ankitha",
@@ -32,5 +32,5 @@ const customerReview = [
     }
 
 ];
-export default customerReview;
+export default reviewData;
     

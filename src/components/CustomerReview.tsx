@@ -1,8 +1,6 @@
-"use client";
-import React from "react";
+
 import { Carousel } from "flowbite-react";
-// import { Avatar } from "flowbite-react";
-import customerReview from "./customerReview";
+import reviewData from "./reviewData";
 
 export default function CustomerReview() {
   return (
@@ -13,7 +11,7 @@ export default function CustomerReview() {
         data-carousel-hide-controls="true"
         pauseOnHover
       >
-        {customerReview.map((review) => (
+        {reviewData.map((review) => (
           <div
             className="mb-10 flex h-full items-center justify-center p-6 dark:text-white"
             key={review.id}
