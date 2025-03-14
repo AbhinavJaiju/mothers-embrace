@@ -7,14 +7,14 @@ export default function WhatsAppForm() {
 
   const sendMessage = () => {
     if (!name || !message) return;
-    const whatsappURL = `https://wa.me/?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/916362080204?text=${encodeURIComponent(
       `Hello, my name is ${name}. ${message}`
     )}`;
     window.open(whatsappURL, "_blank");
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center w-full max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+    <div className="flex flex-col md:flex-row items-center w-full max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden" id="contact">
       <div className="hidden md:block w-1/2">
         <img
           src={mother1}

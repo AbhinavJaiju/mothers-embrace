@@ -3,6 +3,7 @@ import { Navbar } from "flowbite-react";
 import { DarkThemeToggle } from "flowbite-react";
 import logo from "../assets/logo.jpeg";
 
+
 export default function NavbarComponent() {
   return (
     <Navbar fluid>
@@ -15,7 +16,7 @@ export default function NavbarComponent() {
         <Navbar.Link href="#" active>
           Home
         </Navbar.Link>
-        <Navbar.Link href="#">
+        <Navbar.Link href="#about">
           About
         </Navbar.Link>
        <DarkThemeToggle />

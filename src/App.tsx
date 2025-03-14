@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <NavbarComponent />
-    <main className="dark:bg-gray-800 py-8">
+    <main className="dark:bg-gray-800 pb-8">
       <MainBanner />
       <TextBanner />
       <HeroBanner />
