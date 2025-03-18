@@ -32,7 +32,7 @@ const MainBanner = () => {
         </span>
         <div className="mt-6 flex gap-4">
           <button className="rounded-lg border border-red-500 bg-red-500 px-6 py-2 text-white transition duration-300 hover:border-white hover:bg-white hover:text-red-600">
-            <a href="#about"> Learn More </a>
+            <a href="#services"> Services </a>
           </button>
           <button className="rounded-lg border border-red-500 px-6 py-2 text-red-500 transition duration-300 hover:bg-red-500 hover:text-white">
             <a href="#contact"> Contact Us </a>

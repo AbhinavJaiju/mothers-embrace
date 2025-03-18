@@ -5,7 +5,7 @@ import mother from "../assets/mother.jpg";
 
 const Services = () => {
   return (
-    <div className="item-center flex w-full flex-col justify-center gap-4 bg-gray-100 px-8 py-12 md:gap-6">
+    <div className="item-center flex w-full flex-col justify-center gap-4 bg-gray-100 px-8 py-12 md:gap-6" id="services">
       <p className="mb-6 max-w-3xl border-b border-red-300 pb-4 pt-8 text-center text-2xl italic text-gray-500 sm:text-3xl md:text-4xl">
         Our Services
       </p>
