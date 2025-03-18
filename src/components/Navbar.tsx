@@ -1,6 +1,6 @@
 
 import { Navbar } from "flowbite-react";
-import { DarkThemeToggle } from "flowbite-react";
+// import { DarkThemeToggle } from "flowbite-react";
 import logo from "../assets/logo.jpeg";
 
 
@@ -19,7 +19,7 @@ export default function NavbarComponent() {
         <Navbar.Link href="#about">
           About
         </Navbar.Link>
-       <DarkThemeToggle />
+       {/* <DarkThemeToggle /> */}
       </Navbar.Collapse>
     </Navbar>
   );

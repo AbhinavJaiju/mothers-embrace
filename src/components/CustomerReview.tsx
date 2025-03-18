@@ -4,7 +4,7 @@ import reviewData from "./reviewData";
 
 export default function CustomerReview() {
   return (
-    <div className="h-56 sm:h-64 xl:h-64 2xl:h-64 py-2 sm:py-4 xl:py-6 2xl:py-8">
+    <div className="h-64 my-6 sm:h-64 xl:h-64 2xl:h-64 py-4 sm:py-4 xl:py-6 2xl:py-8">
       <h2 className="text-2xl font-semibold text-center dark:text-white">Customer Reviews</h2>
       <Carousel
         indicators={false}

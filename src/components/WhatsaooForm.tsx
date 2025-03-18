@@ -14,7 +14,7 @@ export default function WhatsAppForm() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center w-full max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden" id="contact">
+    <div className="flex flex-col mt-6 md:flex-row items-center w-full max-w-4xl  mx-auto bg-white shadow-lg rounded-lg overflow-hidden" id="contact">
       <div className="hidden md:block w-1/2">
         <img
           src={mother1}
