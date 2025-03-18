@@ -1,11 +1,12 @@
 import baby from "../assets/Baby1.jpg";
-import babyBoy from '../assets/babyboy.jpg';
-import pregnant from '../assets/pregnant2.jpg';
+import babyBoy from "../assets/babyboy.jpg";
+import pregnant from "../assets/pregnant2.jpg";
+import mother from "../assets/mother.jpg";
 
 const Services = () => {
   return (
-    <div className="flex w-full flex-col justify-center item-center bg-gray-100 px-8 py-12 gap-4 md:gap-6">
-      <p className="text-2xl sm:text-3xl md:text-4xl text-gray-500 italic max-w-3xl pt-8 pb-4 mb-6 border-b border-red-300 text-center">
+    <div className="item-center flex w-full flex-col justify-center gap-4 bg-gray-100 px-8 py-12 md:gap-6">
+      <p className="mb-6 max-w-3xl border-b border-red-300 pb-4 pt-8 text-center text-2xl italic text-gray-500 sm:text-3xl md:text-4xl">
         Our Services
       </p>
 
@@ -71,6 +72,30 @@ const Services = () => {
         <div className="overflow-hidden rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg">
           <img
             src={babyBoy}
+            alt="Newborn Baby Massage"
+            className="h-96 w-96 transform object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+      </div>
+
+      <div className=" mb-12 flex flex-col items-center justify-evenly gap-8 rounded-lg p-8 transition-shadow duration-300  hover:bg-gray-200 hover:shadow-xl md:flex-row-reverse">
+        <div className="flex max-w-md flex-col items-center md:items-start">
+          <h3 className="mb-4 text-3xl font-semibold text-gray-800">
+            Relaxation Massage at Home
+          </h3>
+          <p className="text-lg leading-relaxed text-gray-600">
+            Pregnancy and postpartum are transformative phases in a woman’s
+            life, but they can also bring physical and emotional challenges. Our
+            relaxation massage is specially designed to support pregnant mothers
+            and women after delivery, helping them find relief, relaxation, and
+            rejuvenation during this special time. Whether you’re expecting or
+            recovering, our gentle and nurturing techniques are here to help you
+            feel your best.
+          </p>
+        </div>
+        <div className="overflow-hidden rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg">
+          <img
+            src={mother}
             alt="Newborn Baby Massage"
             className="h-96 w-96 transform object-cover transition-transform duration-300 hover:scale-105"
           />
