@@ -1,5 +1,5 @@
 import BabyDesktop from "../assets/pregnant.jpg";
-import BabyMobile from "../assets/baby3.jpg";
+import BabyMobile from "../assets/woman.jpg";
 import { useState, useEffect } from "react";
 
 const MainBanner = () => {
