@@ -31,7 +31,7 @@ const MainBanner = () => {
           Kerala Ayurveda
         </span>
         <span className=" py-2 text-xl text-pink-500 sm:py-4 sm:text-6xl sm:text-gray-400">
-          Phonenumber : 1234567890
+          Phonenumber : +916362080204
         </span>
         <div className="mt-6 flex gap-4">
           <button className="rounded-lg border border-red-500 bg-red-500 px-6 py-2 text-white transition duration-300 hover:border-white hover:bg-white hover:text-red-600">
